@@ -1,0 +1,231 @@
+/* p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+} */
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: sticky;
+    top: 0%;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+
+
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+#home ::before{
+    content:   " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+/* i{
+    color: white;
+    left: 0%;
+    background-color: black;
+} */
+.main{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+
+}
+
+.headings{
+    font-family:  Georgia;
+    font-size: 2rem;
+    text-align: center;
+    margin: 40px 0px;
+    padding: 0.8em;  
+    font-weight: 200;   
+    
+     
+}
+H3{
+    padding-bottom: 0.8em;
+}
+.p-photo {
+    width: 40vw;
+    
+    position: absolute;
+    left: 8%;
+    top: 24%;
+}
+
+ #intro{
+     display: flex;
+     flex-direction: column;
+     text-align: justify;
+     padding: 10px;
+ }
+ #intro h2{
+     font-size: 2rem;
+     margin-bottom: 20px;
+ }
+
+.p-photo img {
+    /* width: 30vw; */
+     object-position: top; 
+    box-shadow: 0.65rem 0.4rem 0rem #96ff88;
+    position: relative;
+    left: 3%;
+    height: 75vh;
+}
+
+
+/* About Section */
+#about{
+    border-bottom: 2px solid black;
+    border-width: 3px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: pink;
+
+}
+ 
+#pic{
+    display: flex;
+}
+#pic img{
+    width: 575px;
+    height: 400px;
+}
+
+/* portfolio */
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    border-bottom: 5px solid black;
+
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+    
+
+}
+.gallery img{
+    width: 320px;
+    height: 240px;
+    margin: 10px;
+    box-shadow: 1px 1px 7px
+}
+
+/* #hobbies{
+    background-color:  ;
+} */
+
+
+#header{
+    text-align : center;
+    padding-top: 10px;
+    color: beige;
+    background-color: black;
+}
+ 
+    nav img{
+        height: 25px;
+        width: 25px;
+         padding: 2px;
+         background-color: white;
+        
+    }
+
+html{
+    scroll-behavior: smooth;
+}
+#cp{
+    display: flex;
+     margin: auto;
+    background-color: lightgray;
+}
+
+ 
+.gallery1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+    cursor: pointer;
+    box-shadow: 0 0 10px;
+
+}
+
+
+
+
+
+
+
+
+/* .lobster {
+    font-family: 'Lobster', cursive;
+    color: white;
+} */ 
+
+/* .magic {
+    position: relative;
+    font-size: 4vw;
+} */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+} */
+
+/* element.style {
+} */
